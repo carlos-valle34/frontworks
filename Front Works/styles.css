@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: gilroy;
+}
+
+
+
+
+
+/*   MAIN   */
+body {
+    overflow-x: hidden;
+}
+
+
+
+.main {
+    height: 2000px;
+    background-color: #fff;
+    padding: 6rem;
+    padding-top: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(270deg, #69adc6, #8f98e4, #9bd79d);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.flying-text {
+    font-family: gilroy;
+    margin-left: 6rem;
+    z-index: 2;
+
+}
+
+.flying-text h1, .flying-text h2 {
+    font-size: 6rem;
+    color: white;
+}
+
+
+.flying-text p {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+
+.button1{
+    z-index: 2;
+}
+.button1 a{
+    font-size: 2rem;
+    padding: 1rem;
+    width: max-content;
+    border-radius: 45px;
+    font-weight: 500;
+    margin-top: 1rem;
+    float: right;
+    background-color: white;
+    cursor: pointer;
+    transition: all 400ms;
+    box-shadow: 4px 8px 8px #333;
+    z-index: 2;
+}
+
+.button1 a:hover{
+    background-color: #465680;
+    color: white;
+    font-size: 2.25rem;
+}
+
+.flying-text h3, h3 {
+    text-shadow: 4px 4px #333;
+    text-align: right;
+    font-size: 4rem;
+    color: white;
+    font-family: gilroy;
+}
+
+.text-container {
+   width: 50%;
+   float: right;
+    background-color: white;
+   padding: 2rem 4rem;
+   border-radius: 30px;
+   margin-top: 3rem;
+   box-shadow: 4px 8px 8px #333;
+}
+
+.text-container p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: #333;
+    font-weight: bolder;
+    text-shadow: 2px 2px white;
+}
+
+b {
+    font-weight: 900;
+}
+
+.marco {
+    width: 1000px;
+    height: 1000px;
+    border: 40px solid white;
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    left: 1010px;
+    bottom: 100px;
+    overflow: hidden;
+    background-color: white;
+    max-width: 100%;
+}
+
+
+.lpimg {
+    position: relative;
+    height: 1200px;
+    right: 500px;
+}
+
+.trabajos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.trabajos a {
+    width: 30%;
+    transition: all 400ms;
+}
+
+.trabajos a:hover {
+    width: 35%;
+}
+
+.trabajos-img {
+    width: 100%;
+    margin: 4rem 0;
+    border: 10px solid white;
+    box-shadow: 4px 4px 8px black;
+}
+
+#flying-text3 {
+    background-color: #ddd;
+    margin: 0;
+    max-height: 635px;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+
+
+.main-ddcv {
+    height: 780px;
+    background-color: #fff;
+    padding: 6rem;
+    padding-top: 12rem;
+    
+    background-image: url(./Resources/Images/alicante.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-ddcv h1 {
+    font-size: 6rem;
+    text-shadow: 4px 4px #333;
+}
+.text-ddcv h2 {
+    font-size: 4rem;
+    text-shadow: 4px 4px #333
+}
+.text-ddcv a {
+    color: white;
+}
+.logo-ddcv {
+    width: 28rem;
+    height: 12rem;
+    justify-self: center;
+    background-color: 	hsl(0, 0%, 0%, 0.5);
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.main-servicios {
+    background-color: #eee;
+    padding-top: 6rem;
+}
+
+.servicios-layout {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.service-box *{
+    color: #333;
+}
+
+.service-box {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+    min-width: 225px;
+    gap: 6rem;
+    margin-top: 3.33%;
+
+    
+}
+
+.service-box h2 {
+    display: block;
+    padding-top: 0;
+    padding: 2rem;
+    flex-shrink: 2;
+    font-size: 1.75vw;
+    text-align: center;
+}
+
+button {
+    font-size: 3rem;
+    margin-top: 6rem;
+    padding: 1rem 3rem;
+    border-radius: 70px;
+    border: 2px solid #999;
+    background-color: #333;
+    transition: all 400ms;
+}
+button:hover {
+    background-color: #C15252;
+}
+
+button a {
+    color: white;
+}
+button a:hover {
+    color: white
+}
+
+.logo-servicio {
+    height: 50%;
+    display: block;
+    margin: auto;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   NAVEGATION BAR   */
+
+
+nav {
+    margin-bottom: 1000px;
+    z-index: 6;
+
+}
+.logo {
+    height: 6rem;
+}
+
+.navbar {
+    background-color: #fff;
+    height: 6.5rem;
+    display: flex;
+    list-style: none;
+    align-items: stretch;
+    gap: 2rem;
+    width: 100%;
+    justify-content: flex-start;
+    box-shadow: 0 1px 15px #333;
+    overflow-y: scroll;
+}
+
+.navbar-item {
+    font-size: 1.5rem;
+    font-family: gilroy;
+    font-weight: 700;
+    flex-shrink: 1;
+}
+.navbar-item a {
+    text-decoration: none;
+    color: #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    transition: all 300ms;
+
+}
+
+.navbar-item a:hover {
+    background-color: #eee;
+    color: #465680;
+}
+
+#active a{
+    background-color: #eee;
+    color: #465680;
+
+}
+
+.navbar-item:last-of-type {
+    margin-left: auto;
+}
+
+.navbar-item:first-of-type {
+    margin-left: 6rem;
+}
+
+nav {
+
+    position: fixed;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   FOOTER   */
+.footer {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    background-color: white;
+    padding-top: 2rem;
+    z-index: 7;
+}
+
+.footer-child {
+    box-sizing: border-box;
+    height: 450px;
+    width: 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    font-family: gilroy;
+    text-align: left;
+    z-index: 5;
+
+}
+
+.footer-child img {
+    margin-top: -1rem;
+}
+
+.footer-child h2, .footer-child a, .footer-child div {
+    margin-bottom: 1rem;
+    color: inherit;
+    font-size: 1.5rem;
+}
+
+.footer-child h2 {
+    font-size: 2rem;
+}
+
+.icons img {
+    height: 50px;
+    font-size: 2rem;
+}
+i {
+    height: 50px;
+    font-size: 2rem;
+    width: 50px;
+    color: #333 !important;
+}
+
+
+a, i{
+    transition: color 400ms;
+}
+
+a:hover, i:hover {
+    color: #465680;
+}
+
